@@ -16,7 +16,10 @@ public class ProductsPage
 	
 	
 
-	public WebElement getNewproimg() {
+	public WebElement getNewproimg() 
+	{
+		System.out.println("Ceate new product");
+		System.out.println("products list");
 		return newproimg;
 	}
 

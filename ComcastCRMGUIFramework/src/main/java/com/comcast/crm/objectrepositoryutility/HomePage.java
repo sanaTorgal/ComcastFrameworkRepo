@@ -18,8 +18,19 @@ public class HomePage
 	@FindBy(linkText ="Organizations")
 	private WebElement orglink;
 	
+	
+	
+	public WebElement getDoclink() {
+		System.err.println("document");
+		return doclink;
+	}
+
 	@FindBy(linkText ="Contacts")
 	private WebElement contactlink;
+	
+	@FindBy(linkText = "Documents")
+	private WebElement doclink;
+	
 	
 	@FindBy(xpath="//img[@src=\"themes/softed/images/user.PNG\"]")
 	private WebElement adminimg;

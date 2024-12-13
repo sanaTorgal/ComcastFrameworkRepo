@@ -52,21 +52,4 @@ public class HomePage
 		return orglink;
 	}
 
-	public WebElement getContactlink()
-	{
-		return contactlink;
-	}
-	public void signOut(WebDriver driver)
-	{
-		Actions act=new Actions(driver);
-		act.moveToElement(adminimg).perform();
-		adminimg.click();
-		signout.click();
-		
-		
-		
-	}
-	
-	
-
 }

@@ -24,6 +24,7 @@ public class HomePage
 		System.out.println("documents link");
 		System.out.println("addedgfdh");
 		System.out.println("---step 5");
+		System.out.println("step -6");
 		return doclink;
 	}
 

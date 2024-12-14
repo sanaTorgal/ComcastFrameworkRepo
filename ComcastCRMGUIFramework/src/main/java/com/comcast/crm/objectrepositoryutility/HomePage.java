@@ -22,7 +22,7 @@ public class HomePage
 	
 	public WebElement getDoclink() {
 		System.out.println("documents link");
-		System.out.println("added");
+		System.out.println("addedgfdh");
 		return doclink;
 	}
 
